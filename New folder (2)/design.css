@@ -1,0 +1,78 @@
+.outer{
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr) */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+
+}
+
+.inner p{
+
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  
+
+.outer {
+
+    background-color: lightcyan;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.inner {
+    background-color: lightgreen;
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+
+.inner p{
+    margin: 15px;
+}
+
+.inner button{
+    margin-left: 15px;
+    padding-right: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+
+}
+
+
+.inner button:hover{
+
+    background-color: tomato;
+}
+
+*/
+
+

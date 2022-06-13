@@ -1,0 +1,41 @@
+p {
+    color: red;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.design {
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 4px 5px 4px grey;
+}
+
+
+.design:hover{
+    background-color:blueviolet;
+}
+
+.left {
+
+background-color: aquamarine;
+
+}
+
+
+
+.right {
+
+
+    text-align: right;
+    background-color: bisque;
+}
+
+
+.middle {
+
+    text-align: center;
+    background-color: skyblue;
+}

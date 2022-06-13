@@ -1,0 +1,110 @@
+.all-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    height: 350px;
+    margin: 80px;
+}
+
+
+.inner-box {
+    margin-bottom: 20px;
+    margin-right: 25px;
+    padding: 15px;
+    margin: 80px;
+}
+
+.img-style2 {
+    width: 125px;
+
+
+}
+
+
+
+.img-style1 {
+    width: 180px;
+
+}
+
+
+
+.head1 {
+
+    width: 30%;
+    margin-left: 50%;
+    margin-top: -20%;
+    border-radius: 30%;
+    
+}
+
+.head2 {
+
+    width: 30%;
+    margin-top: -40%;
+    border-radius: 10%;
+}
+
+
+.about-me {
+
+
+    text-align: left;
+    margin: 120px;
+    justify-content: right;
+    margin-top: -5%;
+    margin-left: 40%;
+    font-size: 20px;
+
+}
+
+.about {
+    text-align: center;
+    margin: 120px;
+    margin-right: 18%;
+}
+
+
+.tony-stark {
+
+    text-align: left;
+    margin: 80px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+    padding: 15px;
+    font-size: 20px
+}
+
+.tony {
+    color: brown;
+    font-size: 60px;
+
+}
+
+.text1 {
+    color: blue;
+    font-size: 30px;
+}
+
+.what {
+
+    text-align: left;
+    margin: 80px;
+
+}
+
+
+.do {
+    text-align: left;
+    margin: 80px;
+    margin-left: 10%;
+
+
+}
+
+body{
+    background-color: lightcyan;
+}
+
+
