@@ -1,0 +1,12 @@
+.body {
+    color: lightcyan;
+}
+
+
+.carousel {
+
+    justify-content: center !important;
+    align-items: center;
+    padding: 15px;
+
+}

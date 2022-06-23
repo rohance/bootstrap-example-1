@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img
+                    src="data:image/jpeg;base64,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745vRb6W3oPPYtn2fMrZG0q2We2vH4G63tp08eSlec3ZP5LSs9nkdn3aDzk9f3Wlp2uo9O/XkRMPxBQiko6rtO6tPW+ul/x7kffnJJO0GnlyRlmV0suWzute/axjsW/h8z6r03aVSBNY/wCA4bu5x8+V12qcVy74akr6q8Wjn56X2aj7v+SLjsX0iWlutKb1vrPLe3JabEA9ChTIuPMqCrtTEteQypI45W/tVz56X2aj7r+I89L7NR91/EpgZ+j0+HmfVR/W2M/H+Vn7VY43GdM4pUoQa0SgrZr2/EsKn7lSy/8AXqrrf9qHxZTYWu6clKO6d0fNaq5ycpO7bu2ZNOYb90efz5rDMaW5qxk1TYGAMoiCRH3jppa51XJngBKq/RAAEQABEAARAAEQABEAARAAEQABEAARAAEQABEAARAAEQABEAARAAEQABEAARAAEQABEAARAAEQABEAARAAEQABEAARAAEQABEAARAAEQABEAARAAEQABEAARAAEQABEAARAAEQABEAARAAEQABEAARAAEQABEAARAAEQABEAARAAEQABEAARAAEQABEAARAAEQABEAARAAEQABEAARAAEQABEAARAAEQABEAARAAEQABEAARAAEQABEAARAAEQABEAARf/2Q=="
+                    class="img-thumbnail" alt=""> <b>RK Imports</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="https://www.amazon.com/s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A281407%2Cn%3A3236443011&dc&ds=v1%3Ap0MEe7Nm1vKptZ1WRSMtvCmJqF%2FyXlQhQAFtWwJZ0jc&qid=1655959073&rnid=281407&ref=sr_nr_n_5">Electronics</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="https://www.amazon.com/s?i=specialty-aps&bbn=16225007011&rh=n%3A16225007011%2Cn%3A193870011&ref=nav_em__nav_desktop_sa_intl_computer_components_0_2_6_3">Computers</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="https://www.amazon.com/gp/browse.html?node=21217035011&ref_=nav_em_sh_lighting_0_2_7_3">Smart
+                            Home</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- slider -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+
+
+        <div class="carousel-inner w-50 position-relative">
+            <div class="carousel-item active">
+                <img src="https://m.media-amazon.com/images/I/91o08DsRplL._AC_SL1500_.jpg" class="d-block w-100"
+                    alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMNBR37JmU7my3AW0lGCFaV9fP0nCS8Gbpc1kZQxqWluTwJ6hkp7Im1I0yb439xhfA56s&usqp=CAU"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://aroshmart.com/wp-content/uploads/2021/06/mobile-phones-banner.jpg"
+                    class="d-block w-100" alt="...">
+            </div>
+        </div>
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
