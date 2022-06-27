@@ -9,3 +9,9 @@
     padding: 15px;
 
 }
+
+.row {
+
+    column-gap: 40px;
+    
+}
