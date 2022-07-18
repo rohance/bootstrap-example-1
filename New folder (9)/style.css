@@ -1,0 +1,25 @@
+.user-input {
+   
+    padding: 10px;
+    box-shadow: 2px 4px 3px lightgoldenrodyellow;
+    border: 1px saddlebrown;
+    margin: 5px;
+    width: 25px;
+
+
+}
+
+.user-input:hover{
+
+background-color: blueviolet;
+
+}
+
+
+#heading-style{
+
+padding: 6px;
+background-color: aquamarine;
+color: brown;
+visibility: hidden;
+}
