@@ -1,10 +1,10 @@
 .user-input {
    
     padding: 10px;
-    box-shadow: 2px 4px 3px lightgoldenrodyellow;
-    border: 1px saddlebrown;
+    box-shadow: 2px 4px 3px yellow;
+    border: 5px saddlebrown;
     margin: 5px;
-    width: 25px;
+    width: 50%;
 
 
 }
