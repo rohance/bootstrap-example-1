@@ -13,20 +13,20 @@ function showdetails() {
 
     if (total > 50000 && semester > 5) {
 
-        discount = (total * .20) + 1000
-
+        discount = (total * .20)
+        library = discount + 1000
     }
 
     else if (total > 25000 && semester > 3) {
 
-        discount = (total * .10) + 800
-
+        discount = (total * .10) 
+        ibrary = discount + 800
     }
 
     else if (total > 10000 && semester > 2) {
 
-        discount = (total * .05) + 500
-
+        discount = (total * .05) 
+        ibrary =discount + 500
     }
 
     else {
