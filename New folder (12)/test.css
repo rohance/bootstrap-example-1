@@ -1,0 +1,14 @@
+.inner-style {
+    margin: 15px;
+    padding: 15px;
+    border: 2px sandybrown;
+    background-color: beige;
+}
+
+
+.outer-area {
+
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
